@@ -424,7 +424,8 @@ module OmniAuth
       end
     end
 
-    def callback_url
+    def 
+      require 'pry'; binding.pry
       full_host + script_name + callback_path + query_string
     end
 
